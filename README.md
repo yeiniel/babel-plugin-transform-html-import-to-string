@@ -1,4 +1,5 @@
 # babel-plugin-transform-html-import-to-string
+[![Build Status](https://travis-ci.org/yeiniel/babel-plugin-transform-html-import-to-string.svg?branch=master)](https://travis-ci.org/yeiniel/babel-plugin-transform-html-import-to-string)
 
 Turn HTML imports into strings.
 
