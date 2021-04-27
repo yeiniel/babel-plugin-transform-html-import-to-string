@@ -8,7 +8,9 @@
     "test": "jest"
   },
   "jest": {
-    "testPathIgnorePatterns": ["__tests__/__fixtures__"]
+    "testPathIgnorePatterns": [
+      "__tests__/__fixtures__"
+    ]
   },
   "repository": {
     "type": "git",
