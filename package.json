@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-html-import-to-string",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Turn HTML imports into strings",
   "main": "lib/index.js",
   "scripts": {
