@@ -1,7 +1,7 @@
 # babel-plugin-transform-html-import-to-string
 [![Build Status](https://travis-ci.com/yeiniel/babel-plugin-transform-html-import-to-string.svg?branch=master)](https://travis-ci.com/yeiniel/babel-plugin-transform-html-import-to-string)
 
-Turn HTML imports into strings.
+Turn HTML imports (and export from) into strings.
 
 ## Example
 
@@ -20,7 +20,22 @@ import html from './example.html';
 #### out
 
 ```js
-var html = '<h1>Hello</h1>';
+const html = '<h1>Hello</h1>';
+```
+
+and if using export
+
+#### in
+
+```js
+export * as html from './example.html';
+```
+
+#### out
+
+```js
+const html = "<h1>Hello</h1>";
+export { html };
 ```
 
 
